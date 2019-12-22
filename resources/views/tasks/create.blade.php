@@ -16,8 +16,8 @@
                 </div>
                 
                  <div class="form-group">
-                    {!! Form::label('status3', 'ステータス:') !!}
-                    {!! Form::text('status3', null, ['class' => 'form-control']) !!}
+                    {!! Form::label('status', 'ステータス:') !!}
+                    {!! Form::text('status', null, ['class' => 'form-control']) !!}
                 </div>
         
                 {!! Form::submit('投稿', ['class' => 'btn btn-primary']) !!}
